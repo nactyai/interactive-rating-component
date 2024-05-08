@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="index.css">
+  <title>Interactive rating component</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="container">
+      <div class="component">
+        <div class="component__container">
+          <div class="component__logo">
+            <img src="images/icon-star.svg" class="component__logo-icon" alt="component logo">
+          </div>
+          <div class="component__description">
+            <h3 class="component__description-title">How did we do?</h3>
+            <p class="component__description-text">
+              Please let us know how we did with your support request. All feedback is appreciated to help us improve
+              our
+              offering!
+            </p>
+          </div>
+          <ul class="rating">
+            <li class="rating__items" data-rating="1">1</li>
+            <li class="rating__items" data-rating="2">2</li>
+            <li class="rating__items" data-rating="3">3</li>
+            <li class="rating__items" data-rating="4">4</li>
+            <li class="rating__items" data-rating="5">5</li>
+          </ul>
+
+
+          <button class="submit" id="submit">submit</button>
+        </div>
+      </div>
+
+      <!-- Backside -->
+
+      <div class="component__backside">
+        <div class="component__backside-container">
+          <div class="component__backside-img">
+            <img src="images/illustration-thank-you.svg" class="component__logo-icon" alt="illustration-thank-you">
+          </div>
+          <div class="which__selected">
+
+            <!-- You selected 4 out of 5 -->
+          </div>
+          <div class="component__backside__description">
+            <h3 class="component__backside__description-title">Thank you!</h3>
+            <p class="component__backside__description-text">
+              We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get
+              in touch!
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
